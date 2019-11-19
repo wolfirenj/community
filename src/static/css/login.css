@@ -1,0 +1,50 @@
+.login_wrap{
+    height:100vh;
+}
+.header{
+    background: #007af5;
+    height:0.8rem;
+    line-height: 0.8rem;
+    font-size: 0.3rem;
+    color:white;
+    padding-left:0.18rem;
+    margin-bottom:0.36rem;
+}
+.header span{
+    display: block;
+    text-align: center
+}
+.left_arrow{
+    float:left;
+    margin-top:0.28rem
+}
+.acc_ipt{
+    text-align: center;
+}
+.acc_ipt Input{
+    height: 1rem;
+    line-height: 1rem;
+    width:90%
+}
+.acc_ipt select{
+    height: 1rem;
+    line-height: 1rem;
+    width:90%;
+    border-radius: .1rem
+}
+.btn{
+    display: block;
+    width: 90%;
+    margin:0 auto;
+    margin-top: .5rem
+}
+.forget{
+    text-align: right;
+    font-size: .25rem;
+    margin:.2rem .3rem .5rem 0
+}
+.register{
+    text-align: center;
+    font-size: .3rem;
+    color:black;
+}

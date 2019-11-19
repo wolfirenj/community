@@ -1,0 +1,180 @@
+#allmap{
+    background-color: #007af5 !important;
+    text-align: center
+}
+.outer_box{
+    width:100vw;
+    overflow: hidden;
+    height: 100vh;
+    position: relative;
+}
+.index_box{
+    position: absolute;
+    height: 100vh;
+    /* left:0rem; */
+    left:-4rem;
+    top:0;
+    width:11.2rem;
+    transition:all 0.3s;
+    overflow: hidden;
+}
+.home{
+    height: 100vh;
+    float: left;
+    width: 100vw;
+    z-index: 6;
+}
+.index_hd{
+    background: #007af5;
+    height:0.84rem;
+    line-height: 0.84rem;
+    display: flex;
+    font-size: 0.3rem;
+    color:white;
+    padding:0 .2rem
+}
+.index_hd .menu{
+    flex:1;
+    text-align: left;
+    margin-top:0.3rem
+}
+.index_hd p{
+    flex: 1
+}
+/* .index_hd .gps{
+    flex: 1;
+    text-align: center;
+    background: #007af5
+} */
+.index_hd .dingwei{
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 0.84rem;
+}
+.search_box{
+    height: 0.85rem;
+    line-height: 0.85rem;
+    margin:0.15rem 0 0 0.1rem
+}
+.search_box Input{
+    width:70%;
+    height: 0.56rem;
+    line-height: 0.56rem;
+    font-size: 0.26rem;
+    border-radius: 0.07rem;
+    display: inline-block;
+    padding-left: 0.46rem;
+    margin-right: 0.1rem
+}
+.lunbo img{
+    height:3rem;
+    width:100%
+}
+.weather{
+    height: 1.8rem;
+    line-height: 1.8rem;
+    border: 1px solid #dedede;
+    background: #f5f5f5;
+    padding-top:.35rem
+}
+.weather img{
+    float: left;
+    margin-left:.2rem
+}
+.weather .left{
+    width:3.8rem;
+    float: left;
+    margin-left:.2rem
+}
+.weather .rain{
+    font-size: 0.35rem;
+    margin-bottom: 0;
+    line-height: .5rem;
+}
+.weather .cloud{
+    font-size: .3rem;
+    line-height: .35rem;
+    margin-bottom: 0
+}
+.weather .right{
+    float:right;
+    width:1.5rem;
+}
+.server{
+    text-align: center;
+    font-size: 0.3rem;
+}
+.server ul{
+    display: flex;
+    margin-bottom: 0
+}
+.type{
+    flex: 1;
+    width:2.21rem;
+    height:1.82rem;
+    border: 1px solid #dedede;
+    border-collapse:collapse;
+    padding-top:0.26rem
+}
+.type img{
+    width: 1.04rem;
+    height: 1.04rem;
+    border-radius: 50%
+}
+.type p{
+    line-height: 0.5rem;
+}
+/* 侧边栏 */
+.sidebar{
+    background: #007af5;
+    width: 4rem;
+    /* position: absolute; */
+    /* left:-4rem; */
+    /* top:0; */
+    height: 100vh;
+    /* transition: 0.5s; */
+    float: left;
+}
+.sidebar ul{
+    margin-bottom: 0;
+}
+.sidebar ul img{
+    width:.45rem;
+    height:.45rem;
+    margin-right: .3rem;
+    margin-left: .4rem;
+}
+.sidebar ul li{
+    line-height: 1rem;
+    font-size: .3rem;
+    color:white
+}
+.self_img{
+    padding:.45rem;
+    position: relative;
+}
+.self_img img{
+    margin-right: .3rem;
+    width:1.2rem;
+    height:1.2rem;
+    border-radius: 50%
+}
+.self_img span{
+    color:#ccc;
+    font-size: .3rem;
+}
+.index_box{
+    position: relative;
+}
+.select{
+    background: #1e4ba0;
+}
+.self_img input{
+    position: absolute;
+    left:.45rem;
+    top:.45rem;
+    width:1.2rem;
+    height:1.2rem;
+    opacity: 0;
+    border-radius: 50%
+}

@@ -1,0 +1,8 @@
+.psd_box{
+    text-align: center;
+}
+.psd_box .psd{
+    width:80%;
+    margin:.3rem auto;
+    height: .5rem;
+}

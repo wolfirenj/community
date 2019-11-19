@@ -1,0 +1,35 @@
+.f_list{
+    display: flex;
+    margin: .2rem;
+    border-bottom: 1px solid #dddddd
+}
+.f_list p{
+    margin-bottom: 0;
+    line-height: .6rem;
+    font-size: .3rem;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+.f_left{
+    width: 80%
+}
+.location{
+    padding-bottom: .2rem
+}
+.f_left span{
+    font-size: .3rem;
+    margin-right:.15rem
+}
+.f_right{
+    flex:1;
+    text-align: center;
+    margin-top:.16rem
+}
+.phone{
+    font-size: .5rem;
+    border: 1px solid #f3f3f3;
+    border-radius: 50%;
+    padding: .1rem;
+    background: #fbfbfb
+}

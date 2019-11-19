@@ -1,0 +1,23 @@
+.sort ul{
+    display: flex;
+    overflow: hidden;
+    margin-bottom: 0;
+    /* margin-right:-2px */
+}
+.sort ul li{
+    flex:1;
+    position: relative;
+    border-right: 1px solid #ccc;
+    text-align: center;
+    height: 0.88rem;
+    line-height: .88rem;
+    font-size: .3rem;
+    color:#aeada8;
+    background: #f5f5f5
+}
+.sort ul li .down_arrow{
+    position: absolute;
+    right:.24rem;
+    top:.28rem;
+    color:#acaba6
+}

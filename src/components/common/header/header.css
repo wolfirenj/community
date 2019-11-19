@@ -1,0 +1,16 @@
+.hd{
+    background: #007af5;
+    height:0.84rem;
+    line-height: 0.84rem;
+    display: flex;
+    font-size: 0.3rem;
+    color:white;
+    padding:0 .2rem
+}
+.title{
+    flex:1;
+    text-align: center
+}
+.user{
+    margin-top:.21rem
+}

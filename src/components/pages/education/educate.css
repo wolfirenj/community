@@ -1,0 +1,125 @@
+.edu_hd{
+    background: #007af5;
+    height:0.84rem;
+    line-height: 0.84rem;
+    display: flex;
+    font-size: 0.3rem;
+    color:white;
+    padding:0 .2rem
+}
+.title{
+    flex:1;
+    text-align: center
+}
+.user{
+    margin-top:.21rem
+}
+.around{
+    display: flex;
+    height:1.5rem;
+    padding:.22rem .11rem .22rem .11rem;
+    border-bottom:1px solid #ccc 
+}
+.a_left,.a_right{
+    flex:1;
+}
+.a_left div,.a_right div{
+    float: right;
+}
+.a_left img,.a_right img{
+    width: .8rem;
+    height: .8rem
+}
+.a_left p,.a_right p{
+    margin-bottom: 0;
+    line-height: .4.5rem;
+    font-size:.3rem
+}
+.a_left{
+    margin-right: .1rem;
+    border-right: 1px solid #cccccc;
+    padding-right:.2rem 
+}
+.kc_classify{
+    margin:.4rem .35rem;
+}
+.kc_classify ul{
+    display: flex;
+    text-align: center;
+    padding-left:.1rem;
+    margin-bottom: 0
+}
+.kc_classify p{
+    font-size: .35rem;
+    color:#000;
+    text-align: center;
+    line-height: 1rem;
+    height: 1rem;
+    margin-bottom: 0
+}
+.kc_classify li{
+    flex:1;
+    float: left;
+    margin-right:.45rem
+}
+.kc_classify li img{
+    width:1.8rem;
+    height: 1.4rem;
+    border:1px solid #ccc;
+    border-radius: .1rem
+}
+.top p{
+    text-align: center;
+    font-size: .3rem;
+    color:#000;
+    text-align: left;
+    margin-bottom: 0;
+}
+.top ul{
+    /* display: flex; */
+    margin-top:.3rem
+}
+.top ul li{
+    /* flex:1; */
+    float: left;
+    width:45%;
+    margin:0 .1rem .1rem;
+    position: relative;
+}
+.top .t_banner{
+    width:100%;
+    margin-bottom: .35rem
+}
+.top .t_img{
+    width:1.2rem;
+    height:1.2rem;
+    border-radius: 50%;
+    position: absolute;
+    right:0.1rem;
+    bottom:0
+}
+.e_title{
+    position: relative;
+    text-align: center;
+    width:100%;
+    /* height:.25rem */
+}
+.t_content{
+    font-size: .3rem;
+    color:#000;
+    /* line-height: .25rem */
+}
+.t_content:after,.t_content:before{
+    position: absolute;
+    top:50%;
+    background: #ddd;
+    content: "";
+    height: 1px;
+    width: 30%;
+}
+.t_content:before{
+    left:.3rem
+}
+.t_content:after{
+    right:.3rem
+}
